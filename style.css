@@ -254,16 +254,20 @@ header {
     margin-left: 590px;
 }
 
-
-.clint {
-    background-color: #2BEA0C12;
+.clint-bg {
+     background-color: #2BEA0C12;
     width: 100%;
     height: 60vh;
     margin-top: 80px;
-    display: flex;
     justify-content: center;
-    gap: 30px;
+    
     padding-top: 70px;
+}
+
+.clint {
+   gap: 30px;
+    display: flex;
+    
 }
 
 .clint-1 {
@@ -371,4 +375,264 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 13px;
+}
+
+
+@media (max-width: 477px) {
+
+    header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+    .navbar {
+    display: none;
+    
+}
+
+   .hero-text h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+  .serch-flx {
+    display: none;
+    
+}
+
+   .search {
+    display: none;
+}  
+   
+   .btns {
+    display: flex;
+    gap: 1rem;
+   }
+
+   .hero-text {
+    display: inline;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+  .hero-img {
+    height: 300px;
+  }
+
+
+  .hero-text h1 {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+  .hero-one {
+    background: linear-gradient( #4A952FC2,#4A952F);
+    width: 100%;
+    height: auto;
+} 
+
+
+  .About {
+    display: inline;
+    justify-content: center;
+    margin-top: 30px;
+
+}    
+
+  .box-control {
+    display: inline;
+    margin-top: 100px;
+    padding-left: 100px;
+    
+}
+
+  .about-img {
+    height: 450px;
+  }
+
+  .abou-why {
+    text-align: center;
+  }
+
+  .box {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    height: 16vh;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+  .box1 {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    height: 6vh;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+
+  .abou-two-box {
+    display: inline;
+    justify-content: center;
+    
+}   
+
+   .two {
+    background-color: #1E1A1A;
+    box-shadow: 5px 10px 18px #888888;
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+  .menu-img {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 140px 140px 140px;
+} 
+
+
+.munu {
+    background-color: #2BEA0C12;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.menu-photos{
+    
+}
+
+.icon-menu {
+    display: none;
+}
+
+  .enjoy {
+    display: inline;
+    justify-content: space-between;
+}   
+
+  .grid-menu {
+    display: inline;
+    /* grid-template-columns: 140px 140px ;
+    grid-template-rows: 140px 120px 120px 120px 120px;
+    column-gap: 50px;
+    row-gap: 150px;
+    justify-content: center;
+    margin-top: 30px; */
+}
+
+  .grid-1 {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    width: 150px;
+    height: 45vh;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}  
+
+  .clint {
+    gap: 30px;
+    display: inline;
+}
+
+.clint-bg {
+    background-color: #2BEA0C12;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.clint-1 {
+    background-color: white;
+    height: 50vh;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 10px;
+}  
+
+  .app {
+    display: inline;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+  .text-app {
+    text-align: center;
+  }
+
+  .menu-btn {
+    padding: 9px 24px;
+    border: 1px solid #289402;
+    color: #289402;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+.veiw {
+    padding: 9px 24px;
+    border: 1px solid #289402;
+    color: #289402;
+    background-color: transparent;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+ .foter-control {
+    display: inline;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 20px;
+    text-align: center;
+}  
+
+  .about-foter {
+    margin-top: 30px;
+  }
+
+  .Get-connected {
+    margin-top: 30px;
+  }
+
+
+  .stay-informed {
+    margin-top: 30px;
+  }  
+
+
+  .dowload {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 30px;
+}
 }
